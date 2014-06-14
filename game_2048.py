@@ -121,7 +121,6 @@ class TwentyFortyEight:
         square.  The tile should be 2 90% of the time and
         4 10% of the time.
         """
-        # replace with your code
         value = 2 if random.random() < 0.9 else 4
         empty_tiles = [(row, col) \
                        for col in range(self.width) \
